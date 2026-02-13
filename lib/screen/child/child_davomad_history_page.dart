@@ -1,11 +1,10 @@
 import 'dart:convert';
+import 'package:Temuriylar/const/api_const.dart';
 import 'package:flutter/material.dart';
-import 'package:get/get.dart';
 import 'package:get_storage/get_storage.dart';
 import 'package:http/http.dart' as http;
 import 'package:intl/intl.dart';
 import 'package:shimmer/shimmer.dart';
-import 'package:smart_kids_app_end/const/api_const.dart';
 
 class ChildDavomadHistoryPage extends StatefulWidget {
   final int id; // Bu kidId

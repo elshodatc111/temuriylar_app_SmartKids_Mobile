@@ -1,4 +1,4 @@
-package uz.smartkids.smart_kids_app_end
+package uz.temuriylar.smart_kids_app
 
 import io.flutter.embedding.android.FlutterActivity
 

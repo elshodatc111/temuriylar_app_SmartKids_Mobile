@@ -1,4 +1,6 @@
 import 'dart:convert';
+import 'package:Temuriylar/const/api_const.dart';
+import 'package:Temuriylar/screen/xodim/xodim_show_page.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:get/get.dart';
@@ -7,8 +9,6 @@ import 'package:http/http.dart' as http;
 import 'package:flutter_spinkit/flutter_spinkit.dart';
 import 'package:intl/intl.dart';
 import 'package:mask_text_input_formatter/mask_text_input_formatter.dart';
-import 'package:smart_kids_app_end/const/api_const.dart';
-import 'package:smart_kids_app_end/screen/xodim/xodim_show_page.dart';
 
 // --- CONTROLLER ---
 class XodimController extends GetxController {

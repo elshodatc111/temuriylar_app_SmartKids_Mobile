@@ -1,7 +1,7 @@
 import 'dart:async';
 import 'package:connectivity_plus/connectivity_plus.dart';
 import 'package:get/get.dart';
-import 'package:smart_kids_app_end/screen/noconnect/no_connect.dart';
+import 'package:Temuriylar/screen/noconnect/no_connect.dart';
 
 class InternetService {
   static final InternetService _instance = InternetService._internal();

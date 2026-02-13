@@ -1,45 +1,32 @@
+import 'package:Temuriylar/screen/splash/splash_page.dart';
+import 'package:Temuriylar/services/internet_service.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:smart_kids_app_end/screen/splash/splash_page.dart';
-import 'package:smart_kids_app_end/services/internet_service.dart';
 
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
 
   @override
   Widget build(BuildContext context) {
-    // Internet xizmatini ishga tushirish
     InternetService().startListening();
-
     return GetMaterialApp(
       debugShowCheckedModeBanner: false,
-      title: 'Smart Kids CRM',
-      // CRM Tizimiga moslashtirilgan Global Mavzu
+      title: 'Temuriylar CRM',
       theme: ThemeData(
         useMaterial3: true,
-        scaffoldBackgroundColor: const Color(0xFFF5F7F9), // CRM uchun standart fon
-
-        // Ilovaning asosiy ranglar gammasi
+        scaffoldBackgroundColor: const Color(0xFFF5F7F9),
         colorScheme: ColorScheme.fromSeed(
           seedColor: const Color(0xFF2196F3),
           primary: const Color(0xFF2196F3),
           surface: Colors.white,
         ),
-
-        // AppBar dizayni (Proyekt matn va ikonka ranglari to'g'irlangan)
         appBarTheme: const AppBarTheme(
-          centerTitle: false, // Barcha sahifalarda sarlavha chapda bo'ladi (Professional uslub)
+          centerTitle: false,
           backgroundColor: Colors.white,
           elevation: 0,
           scrolledUnderElevation: 0,
-          iconTheme: IconThemeData(
-              color: Color(0xFF1A1C1E),
-              size: 22
-          ),
-          actionsIconTheme: IconThemeData(
-              color: Color(0xFF1A1C1E),
-              size: 22
-          ),
+          iconTheme: IconThemeData(color: Color(0xFF1A1C1E), size: 22),
+          actionsIconTheme: IconThemeData(color: Color(0xFF1A1C1E), size: 22),
           titleTextStyle: TextStyle(
             color: Color(0xFF1A1C1E),
             fontWeight: FontWeight.bold,
@@ -81,7 +68,9 @@ class MyApp extends StatelessWidget {
             foregroundColor: Colors.white,
             elevation: 0,
             minimumSize: const Size(double.infinity, 52),
-            shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(12)),
+            shape: RoundedRectangleBorder(
+              borderRadius: BorderRadius.circular(12),
+            ),
           ),
         ),
 

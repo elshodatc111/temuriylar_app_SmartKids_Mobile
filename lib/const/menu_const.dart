@@ -1,15 +1,15 @@
+import 'package:Temuriylar/screen/chart/chart_page.dart';
+import 'package:Temuriylar/screen/child/child_page.dart';
+import 'package:Temuriylar/screen/davomad/child_davomad_page.dart';
+import 'package:Temuriylar/screen/davomad/hodim_davomad_page.dart';
+import 'package:Temuriylar/screen/group/group_page.dart';
+import 'package:Temuriylar/screen/kassa/kassa_controller.dart';
+import 'package:Temuriylar/screen/moliya/moliya_page.dart';
+import 'package:Temuriylar/screen/my_groups/my_group_page.dart';
+import 'package:Temuriylar/screen/my_payment/my_payment.dart';
+import 'package:Temuriylar/screen/tkun/tugilgan_kun_page.dart';
+import 'package:Temuriylar/screen/xodim/xodim_page.dart';
 import 'package:flutter/material.dart';
-import 'package:smart_kids_app_end/screen/chart/chart_page.dart';
-import 'package:smart_kids_app_end/screen/child/child_page.dart';
-import 'package:smart_kids_app_end/screen/davomad/child_davomad_page.dart';
-import 'package:smart_kids_app_end/screen/davomad/hodim_davomad_page.dart';
-import 'package:smart_kids_app_end/screen/group/group_page.dart';
-import 'package:smart_kids_app_end/screen/kassa/kassa_page.dart';
-import 'package:smart_kids_app_end/screen/moliya/moliya_page.dart';
-import 'package:smart_kids_app_end/screen/my_groups/my_group_page.dart';
-import 'package:smart_kids_app_end/screen/my_payment/my_payment.dart';
-import 'package:smart_kids_app_end/screen/tkun/tugilgan_kun_page.dart';
-import 'package:smart_kids_app_end/screen/xodim/xodim_page.dart';
 
 class MenuConst {
   static const List<Map<String, dynamic>> items = [  //

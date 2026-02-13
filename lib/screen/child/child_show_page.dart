@@ -1,5 +1,9 @@
 import 'dart:convert';
 import 'dart:io';
+import 'package:Temuriylar/const/api_const.dart';
+import 'package:Temuriylar/screen/child/child_davomad_history_page.dart';
+import 'package:Temuriylar/screen/child/child_history_page.dart';
+import 'package:Temuriylar/screen/child/child_update_page.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:get/get.dart';
@@ -9,13 +13,9 @@ import 'package:intl/intl.dart';
 import 'package:flutter_spinkit/flutter_spinkit.dart';
 import 'package:shimmer/shimmer.dart';
 import 'package:cached_network_image/cached_network_image.dart';
-import 'package:smart_kids_app_end/screen/child/child_davomad_history_page.dart';
-import 'package:smart_kids_app_end/screen/child/child_history_page.dart';
-import 'package:smart_kids_app_end/screen/child/child_update_page.dart';
 import 'package:url_launcher/url_launcher.dart';
 import 'package:image_picker/image_picker.dart';
 import 'package:image_cropper/image_cropper.dart';
-import 'package:smart_kids_app_end/const/api_const.dart';
 
 // --- CONTROLLER ---
 class ChildShowController extends GetxController {

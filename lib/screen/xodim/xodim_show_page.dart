@@ -1,4 +1,8 @@
 import 'dart:convert';
+import 'package:Temuriylar/const/api_const.dart';
+import 'package:Temuriylar/screen/xodim/hodim_davomad_tarixi.dart';
+import 'package:Temuriylar/screen/xodim/hodim_guruhlar_tarixi.dart';
+import 'package:Temuriylar/screen/xodim/ish_haqi_tulovlari.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:get/get.dart';
@@ -8,12 +12,8 @@ import 'package:flutter_spinkit/flutter_spinkit.dart';
 import 'package:intl/intl.dart';
 import 'package:shimmer/shimmer.dart';
 import 'package:cached_network_image/cached_network_image.dart';
-import 'package:smart_kids_app_end/screen/xodim/hodim_davomad_tarixi.dart';
-import 'package:smart_kids_app_end/screen/xodim/hodim_guruhlar_tarixi.dart';
-import 'package:smart_kids_app_end/screen/xodim/ish_haqi_tulovlari.dart';
 import 'package:url_launcher/url_launcher.dart';
 import 'package:mask_text_input_formatter/mask_text_input_formatter.dart';
-import 'package:smart_kids_app_end/const/api_const.dart';
 
 class XodimShowPage extends StatefulWidget {
   final int id;

@@ -1,9 +1,9 @@
+import 'package:Temuriylar/screen/group/group_show_controller.dart';
+import 'package:Temuriylar/screen/my_groups/my_group_davomad_history_page.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:flutter_spinkit/flutter_spinkit.dart';
 import 'package:intl/intl.dart';
-import 'package:smart_kids_app_end/screen/group/group_show_controller.dart';
-import 'package:smart_kids_app_end/screen/my_groups/my_group_davomad_history_page.dart';
 
 class GroupShowPage extends StatelessWidget {
   final int id;

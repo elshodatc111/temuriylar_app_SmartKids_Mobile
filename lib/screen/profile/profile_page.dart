@@ -1,5 +1,8 @@
 import 'dart:convert';
 import 'dart:ui';
+import 'package:Temuriylar/const/api_const.dart';
+import 'package:Temuriylar/screen/login/login_page.dart';
+import 'package:Temuriylar/screen/splash/splash_page.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:get_storage/get_storage.dart';
@@ -8,9 +11,6 @@ import 'package:cached_network_image/cached_network_image.dart';
 import 'package:image_picker/image_picker.dart';
 import 'package:flutter_spinkit/flutter_spinkit.dart';
 import 'package:intl/intl.dart';
-import 'package:smart_kids_app_end/const/api_const.dart';
-import 'package:smart_kids_app_end/screen/login/login_page.dart';
-import 'package:smart_kids_app_end/screen/splash/splash_page.dart';
 
 class ProfilePage extends StatefulWidget {
   const ProfilePage({super.key});

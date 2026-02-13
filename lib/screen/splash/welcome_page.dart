@@ -1,7 +1,7 @@
+import 'package:Temuriylar/screen/login/login_page.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:get_storage/get_storage.dart';
-import 'package:smart_kids_app_end/screen/login/login_page.dart';
 
 class WelcomePage extends StatelessWidget {
   const WelcomePage({super.key});
@@ -32,18 +32,6 @@ class WelcomePage extends StatelessWidget {
                 ),
               ),
               const SizedBox(height: 24),
-
-              // Brend nomi
-              const Text(
-                "Smart Kids",
-                style: TextStyle(
-                  fontSize: 34,
-                  fontWeight: FontWeight.bold,
-                  letterSpacing: 1,
-                  color: Color(0xFF1A1C1E),
-                ),
-              ),
-              const SizedBox(height: 12),
 
               // Tavsif matni (Imlo xatolari to'g'irlangan)
               Text(

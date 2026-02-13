@@ -1,8 +1,8 @@
 import 'dart:convert';
+import 'package:Temuriylar/const/api_const.dart';
 import 'package:flutter/material.dart';
 import 'package:http/http.dart' as http;
 import 'package:get_storage/get_storage.dart';
-import 'package:smart_kids_app_end/const/api_const.dart';
 import 'package:url_launcher/url_launcher.dart';
 import 'package:flutter_spinkit/flutter_spinkit.dart';
 import 'package:cached_network_image/cached_network_image.dart';

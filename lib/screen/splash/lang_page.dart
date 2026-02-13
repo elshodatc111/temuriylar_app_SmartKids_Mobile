@@ -1,7 +1,7 @@
+import 'package:Temuriylar/screen/splash/welcome_page.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:get_storage/get_storage.dart';
-import 'package:smart_kids_app_end/screen/splash/welcome_page.dart';
 
 class LangPage extends StatelessWidget {
   const LangPage({super.key});
@@ -30,16 +30,6 @@ class LangPage extends StatelessWidget {
                   height: 220,
                   errorBuilder: (context, error, stackTrace) =>
                   const Icon(Icons.school_outlined, size: 80, color: Colors.blue),
-                ),
-              ),
-              const SizedBox(height: 16),
-              const Text(
-                "Smart Kids",
-                style: TextStyle(
-                  fontSize: 32,
-                  fontWeight: FontWeight.bold,
-                  letterSpacing: 1.5,
-                  color: Color(0xFF1A1C1E),
                 ),
               ),
               const SizedBox(height: 10),

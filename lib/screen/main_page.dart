@@ -3,9 +3,9 @@ import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:get_storage/get_storage.dart';
 import 'package:http/http.dart' as http;
-import 'package:smart_kids_app_end/const/api_const.dart';
-import 'package:smart_kids_app_end/const/menu_const.dart';
-import 'package:smart_kids_app_end/screen/profile/profile_page.dart';
+import '../const/api_const.dart';
+import '../const/menu_const.dart';
+import '../screen/profile/profile_page.dart';
 
 class MainPage extends StatefulWidget {
   const MainPage({super.key});
@@ -26,7 +26,6 @@ class _MainPageState extends State<MainPage> {
     _loadDashboardData();
   }
 
-  // 1. Ma'lumotlarni yuklash (Kesh va API mantiqi)
   Future<void> _loadDashboardData({bool forceRefresh = false}) async {
     if (mounted) setState(() => _isLoading = true);
     final results = await Future.wait([
@@ -107,7 +106,7 @@ class _MainPageState extends State<MainPage> {
       backgroundColor: const Color(0xFFF5F7F9),
       appBar: AppBar(
         title: const Text(
-          "Smart Kids",
+          "Temuriylar",
           style: TextStyle(fontWeight: FontWeight.bold),
         ),
         backgroundColor: Colors.white,

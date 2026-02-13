@@ -1,9 +1,9 @@
+import 'package:Temuriylar/screen/kassa/kassa_page.dart';
+import 'package:Temuriylar/screen/kassa/kassa_widgets.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:flutter_spinkit/flutter_spinkit.dart';
 import 'package:intl/intl.dart';
-import 'package:smart_kids_app_end/screen/kassa/kassa_page.dart';
-import 'package:smart_kids_app_end/screen/kassa/kassa_widgets.dart';
 
 class KassaPage extends StatelessWidget {
   const KassaPage({super.key});

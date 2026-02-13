@@ -1,11 +1,11 @@
 import 'dart:convert';
+import 'package:Temuriylar/const/api_const.dart';
+import 'package:Temuriylar/screen/my_groups/my_group_show_page.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:get_storage/get_storage.dart';
 import 'package:http/http.dart' as http;
 import 'package:shimmer/shimmer.dart';
-import 'package:smart_kids_app_end/const/api_const.dart';
-import 'package:smart_kids_app_end/screen/my_groups/my_group_show_page.dart';
 
 class MyGroupController extends GetxController {
   var isLoading = true.obs;
